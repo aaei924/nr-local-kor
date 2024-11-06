@@ -119,7 +119,7 @@ msgstr "통과열차 표시"
 #v1.14.24
 msgctxt "run_panel_sched2"
 msgid "{0} / {1} / Run {2}"
-msgstr "{0} / {1} / Run {2}"
+msgstr "{0} / {1} / 운행 {2}"
 
 #v1.14.24
 msgctxt "sched_cell_sub"
@@ -754,7 +754,7 @@ msgstr "역"
 #v1.1.31
 msgctxt "accounting_construction_total"
 msgid "Total construction"
-msgstr "총 건설"
+msgstr "총 건설비"
 
 #v1.1.31
 msgctxt "accounting_construction_tracks"
@@ -764,7 +764,7 @@ msgstr "철로"
 #v1.5.31
 msgctxt "accounting_events_post"
 msgid "events"
-msgstr "이벤트"
+msgstr "건"
 
 #v1.1.31
 msgctxt "accounting_financing"
@@ -799,7 +799,7 @@ msgstr "승객"
 #v1.1.31
 msgctxt "accounting_pax_boarded"
 msgid "Boarded train"
-msgstr "승차한 고객"
+msgstr "열차에 승차"
 
 #v1.1.31
 msgctxt "accounting_pax_compensated"
@@ -819,7 +819,7 @@ msgstr "보상: 수요 제거됨"
 #v1.1.72
 msgctxt "accounting_pax_never_serviced"
 msgid "Never serviced"
-msgstr “서비스 미제공"
+msgstr "서비스 미제공"
 
 #v1.1.72
 msgctxt "accounting_pax_new"
@@ -829,7 +829,7 @@ msgstr "새 승객"
 #v1.1.31
 msgctxt "accounting_pax_post"
 msgid "pax"
-msgstr "승객"
+msgstr "명"
 
 #v1.1.37
 msgctxt "accounting_pax_reached_depot"
@@ -844,12 +844,12 @@ msgstr "도착 승객"
 #v1.1.31
 msgctxt "accounting_pax_reached_transfer"
 msgid "Reached transfer"
-msgstr "환승 승객"
+msgstr "환승"
 
 #v1.1.37
 msgctxt "accounting_pax_refunded"
 msgid "Refunded (incl. compen.)"
-msgstr "환불(보상 포함)"
+msgstr "환불 (보상 포함)"
 
 #v1.1.37
 msgctxt "accounting_pax_refused_fare"
@@ -1039,7 +1039,7 @@ msgstr "스케쥴상 정차 시간"
 #v1.11.14
 msgctxt "accounting_utc_warn"
 msgid "Accounting time: {}"
-msgstr "회계 시간: {} UTC-0"
+msgstr "회계 시간: {}"
 
 #v1.1.31
 msgctxt "accounting_week_title"
@@ -1144,22 +1144,22 @@ msgstr "실시간 업데이트"
 #v1.13.11
 msgctxt "assets_on_map_labels"
 msgid "Labels"
-msgstr "Labels"
+msgstr "라벨"
 
 #v1.13.11
 msgctxt "assets_on_map_max_radius"
 msgid "Max. radius:"
-msgstr "Max. radius:"
+msgstr "색상원 크기:"
 
 #v1.13.11
 msgctxt "assets_on_map_neg_color"
 msgid "Negative color:"
-msgstr "Negative color:"
+msgstr "부정적 색상:"
 
 #v1.13.11
 msgctxt "assets_on_map_pos_color"
 msgid "Positive color:"
-msgstr "Positive color:"
+msgstr "긍정적 색상:"
 
 #v1.13.11
 msgctxt "assets_view_on_map"
@@ -3854,7 +3854,7 @@ msgstr "시간표"
 #v1.8.24
 msgctxt "line_to3"
 msgid "{0} [{1}] at"
-msgstr "{0} [{1}] at"
+msgstr "{0} [{1}] 정거장"
 
 #v1.8.24
 msgctxt "line_warn_custom_duration_too_short"
@@ -3869,7 +3869,7 @@ msgstr "사용자 지정 모드 또는 적절한 소요 시간 모드에는 마�
 #v1.7.15
 msgctxt "line_warn_unachievable_fixed_departure"
 msgid "One or more fixed departure stops are unachievable"
-msgstr "1개 이상의 고정 출발역이 정한 시간 내에 도달 불가능합니다."
+msgstr "1개 이상의 고정 출발역이 지정한 시간 내에 도달할 수 없습니다."
 
 #v1.9.17
 msgctxt "lineeditor_adding_sec_stop_s1"
@@ -4173,7 +4173,7 @@ msgstr "형식: hh:mm:ss\n첫 자동운행 차량의 출발 시각을 작성합�
 #v1.5.41
 msgctxt "lineeditor_leg_eta"
 msgid "Effective time:"
-msgstr "유효 시간:"
+msgstr "운행 시간:"
 
 #v1.5.41
 msgctxt "lineeditor_leg_eta_custom_speed"
@@ -4733,17 +4733,17 @@ msgstr "이자 지급: "
 #v1.1.31
 msgctxt "loan_pay_early"
 msgid "Pay early ${}"
-msgstr "${} 미리 지불"
+msgstr "${} 중도 상환"
 
 #v1.1.31
 msgctxt "loan_payments"
 msgid "Payments:"
-msgstr "지불: "
+msgstr "상환: "
 
 #v1.1.31
 msgctxt "loan_payments_fmt"
 msgid "{0} out of {1}, next on {2}"
-msgstr "{1}회 중 {0}회 지불했음, 다음 지불: {2}"
+msgstr "{1}회 중 {0}회 완료, 다음 상환: {2}"
 
 #v1.1.31
 msgctxt "loan_subtitle"
@@ -4753,7 +4753,7 @@ msgstr "월마다 ${}"
 #v1.1.31
 msgctxt "loan_title"
 msgid "${0} at {1:.3}% APR in {2} years"
-msgstr "${0} {1:.3}%연이율로 {2}년 간 대출"
+msgstr "{1:.3}% 금리로 ${0} {2}년 간 대출"
 
 #v1.4.22
 msgctxt "local_bp_collection"
@@ -5133,12 +5133,12 @@ msgstr "버전: "
 #v1.3.13
 msgctxt "mode_map_layer_regions"
 msgid "Regions layer"
-msgstr "지역 레이어"
+msgstr "지역 경계"
 
 #v1.3.13
 msgctxt "mode_map_population"
 msgid "Population layer"
-msgstr "인구 분포도 표시 [Home]"
+msgstr "인구 분포 표시"
 
 #v1.2.22
 msgctxt "mode_map_tracks"
@@ -5713,17 +5713,17 @@ msgstr "새 병렬 노선 간격:"
 #v1.11.14
 msgctxt "option_company_pax_pf_bias"
 msgid "Pax pathfind bias:"
-msgstr "Pax pathfind bias:"
+msgstr "승객의 경로 탐색 방식:"
 
 #v1.11.14
 msgctxt "option_company_pax_pf_bias_less"
 msgid "Better paths"
-msgstr "Better paths"
+msgstr "최적의 경로"
 
 #v1.11.14
 msgctxt "option_company_pax_pf_bias_more"
 msgid "Faster sim"
-msgstr "Faster sim"
+msgstr "빠른 연산"
 
 #v1.12.11
 msgctxt "option_company_pax_spawn_station_pick"
@@ -6048,7 +6048,7 @@ msgstr "승객:"
 #v1.1.31
 msgctxt "paxlist_groupby_dest"
 msgid "Group by destination"
-msgstr "목적지 별로 묶어 보기"
+msgstr "목적지별로 묶어 보기"
 
 #v1.5.31
 msgctxt "paxlist_groupby_dominating"
@@ -6068,7 +6068,7 @@ msgstr "모두 보기"
 #v1.1.31
 msgctxt "paxlist_groupby_origin"
 msgid "Group by origin"
-msgstr "출발지 별로 묶어 보기"
+msgstr "출발지별로 묶어 보기"
 
 #v1.5.31
 msgctxt "paxlist_groupby_plan"
@@ -6468,7 +6468,7 @@ msgstr "태그"
 #v1.8.24
 msgctxt "rtstat_creation"
 msgid "Creation date"
-msgstr "제작일"
+msgstr "건설 일자"
 
 #v1.5.41
 msgctxt "rtstat_leg_late"
@@ -8163,7 +8163,7 @@ msgstr "임의 기간으로 그룹화"
 #v1.1.58
 msgctxt "train_info_arrives"
 msgid "Arrives in {0}, {1:.1f} km of {2:.1f} km"
-msgstr "{0}에 도착, {2:.1f} km 중 {1:.1f} km"
+msgstr "{0} 후에 도착, {2:.1f} km 중 {1:.1f} km"
 
 #v1.6.13
 msgctxt "train_info_camera"
@@ -8208,7 +8208,7 @@ msgstr "범용"
 #v1.1.58
 msgctxt "train_info_departs"
 msgid "Departs in {}"
-msgstr "{}후에 출발"
+msgstr "{} 후에 출발"
 
 #v1.7.15
 msgctxt "train_info_description"
@@ -8318,7 +8318,7 @@ msgstr "열차에서 현재 목적지까지의 경로"
 #v1.1.31
 msgctxt "train_info_pax"
 msgid "Pax / max:"
-msgstr "승객 / 최대:"
+msgstr "차내 승객 / 최대 승객:"
 
 #v1.6.13
 msgctxt "train_info_pin"
@@ -8478,7 +8478,7 @@ msgstr "전체"
 #v1.1.37
 msgctxt "train_list_filter_by_line"
 msgid "Group by line"
-msgstr "노선 별로 묶어보기"
+msgstr "노선별로 묶어보기"
 
 #v1.3.13
 msgctxt "train_list_filter_by_line_tags"
@@ -8488,7 +8488,7 @@ msgstr "노선 태그로 묶어 보기"
 #v1.1.37
 msgctxt "train_list_filter_by_model"
 msgid "Group by model"
-msgstr "모델 별로 묶어보기"
+msgstr "모델별로 묶어보기"
 
 #v1.5.31
 msgctxt "train_list_filter_flat"
@@ -8578,12 +8578,12 @@ msgstr "편성당 가격:"
 #v1.1.31
 msgctxt "train_purchase_no_cash"
 msgid "Not enough money for purchase"
-msgstr "구매할수 있는 금액이 충분하지 않습니다."
+msgstr "비용이 충분하지 않습니다."
 
 #v1.1.31
 msgctxt "train_purchase_no_cash_desc"
 msgid "Not enough money to purchase the train(s). Pick a cheaper train, less trains, less cars, or make more money."
-msgstr "열차를 구입 할 금액이 충분하지 않습니다. 더 저렴한 모델이나 편성으로 타협하거나 금액을 더 많이 모아두세요."
+msgstr "열차를 구입할 비용이 부족합니다. 더 저렴한 모델, 더 저렴하거나 더 적은 수의 편성으로 타협하거나 예산을 더 확보하세요."
 
 #v1.7.15
 msgctxt "train_recompo_apply"
@@ -8638,7 +8638,7 @@ msgstr "초기화"
 #v1.7.15
 msgctxt "train_refund"
 msgid "Total refund:"
-msgstr "총 환불:"
+msgstr "총 환불액:"
 
 #v1.7.15
 msgctxt "train_replace"
@@ -9048,7 +9048,7 @@ msgstr "이 모드는 이 세이브 안에서 한 개 이상 오브젝트에 사
 #v1.2.22
 msgctxt "user_signal_light_cones"
 msgid "Signal light cones"
-msgstr "신호 고깔"
+msgstr "신호기 불빛 묘사"
 
 #v1.1.31
 msgctxt "view_in_workshop"
