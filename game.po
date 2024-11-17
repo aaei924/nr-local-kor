@@ -309,7 +309,7 @@ msgstr "반복:"
 #v1.14.24
 msgctxt "schededitor_order_stack_mode"
 msgid "Stack"
-msgstr "Stack"
+msgstr "반복"
 
 #v1.14.24
 msgctxt "schededitor_service_level"
@@ -584,12 +584,12 @@ msgstr "<첫 번째 역과 같음>"
 #v1.14.24
 msgctxt "editor_warn_need_train_acc"
 msgid "Buy and select a train, order a train to auto run this line, or assign it to a shift running this line."
-msgstr "Buy and select a train, order a train to auto run this line, or assign it to a shift running this line."
+msgstr "열차를 구입하고 선택한 후, 이 노선을 운행하도록 명령하거나 이 노선을 운행하는 스케줄에 할당시키세요."
 
 #v1.14.24
 msgctxt "error_too_old_save"
 msgid "The game version that created this save file is too old and it cannot be loaded. Try the v1.6 or newer legacy branches in Steam."
-msgstr "The game version that created this save file is too old and it cannot be loaded. Try the v1.6 or newer legacy branches in Steam."
+msgstr "이 세이브파일을 생성한 게임의 버전이 너무 오래되어 불러올 수 없습니다. Steam v1.6 이후의 구 버전으로 시도해보세요."
 
 #v1.14.24
 msgctxt "lineeditor_default_timings_go_ref_train"
@@ -614,17 +614,17 @@ msgstr "Pax timetable rebuild is pending due to an editing action\nClick icon, p
 #v1.14.24
 msgctxt "run_view_tooltip"
 msgid "{0}Run {1}"
-msgstr "{0}Run {1}"
+msgstr "{0}운행 {1}"
 
 #v1.14.24
 msgctxt "run_view_tooltip_full"
 msgid "{0}Run {1}\n{2}"
-msgstr "{0}Run {1}\n{2}"
+msgstr "{0}운행 {1}\n{2}"
 
 #v1.14.24
 msgctxt "stale_run_tooltip"
 msgid "The orders for this train have changed. It will automatically respawn on when resuming the simulation.\nPax will be automatically relocated to their next stops."
-msgstr "The orders for this train have changed. It will automatically respawn on when resuming the simulation.\nPax will be automatically relocated to their next stops."
+msgstr "이 열차의 명령이 변경되었습니다. 시뮬레이션을 계속하는 동안 열차가 자동으로 재소환됩니다.\n승객은 자동으로 다음 정차역에 옮겨집니다."
 
 #v1.14.24
 msgctxt "station_max_walk_nc"
@@ -674,7 +674,7 @@ msgstr "Timing event:"
 #v1.14.24
 msgctxt "traineditor_order_start_time_desc"
 msgid "Format: hh:mm:ss\nTime of day to for the selected timing stop and event to happen."
-msgstr "Format: hh:mm:ss\nTime of day to for the selected timing stop and event to happen."
+msgstr "형식: hh:mm:ss\nTime of day to for the selected timing stop and event to happen."
 
 
 
@@ -2824,7 +2824,7 @@ msgstr "수동 간격이 이 노선의 운행 시간을 초과합니다. 간격�
 #v1.5.31
 msgctxt "editor_warn_train_speed_too_high"
 msgid "Trains might be unable to make up for delays at this cruise speed."
-msgstr "이 운행 속도로는 지연되는 교통 상황에 열차가 적응하지 못할 수 있습니다."
+msgstr "이 운행 속도에서는 열차가 지연을 회복하지 못할 수 있습니다."
 
 #v1.5.31
 msgctxt "effective_game_speed"
@@ -4228,7 +4228,7 @@ msgstr "최대 가속도 (m/s²):"
 #v1.8.24
 msgctxt "lineeditor_max_accel_desc"
 msgid "Upper bound for train acceleration. Actual acceleration may be lower depending on train tractive effort."
-msgstr "이론적인 최대 가속도입니다. 실제 가속도는 열차의 스펙에 따라 더 낮을 수 있습니다."
+msgstr "이론적인 최대 가속도입니다. 실제 가속도는 열차의 사양에 따라 더 낮을 수 있습니다."
 
 #v1.8.24
 msgctxt "lineeditor_max_brake"
@@ -4478,17 +4478,17 @@ msgstr "시간대:"
 #v1.11.14
 msgctxt "lineeditor_tz_custom"
 msgid "Custom"
-msgstr "Custom"
+msgstr "시간대"
 
 #v1.11.14
 msgctxt "lineeditor_tz_custom_input"
 msgid "Custom time zone:"
-msgstr "Custom time zone:"
+msgstr "사용자 지정 시간대:"
 
 #v1.11.14
 msgctxt "lineeditor_tz_custom_input_desc"
 msgid "Format: (-)hh:mm:ss"
-msgstr "Format: (-)hh:mm:ss"
+msgstr "형식: (-)hh:mm:ss"
 
 #v1.5.31
 msgctxt "lineeditor_tz_first_stop"
@@ -4508,7 +4508,7 @@ msgstr "출발 불가능"
 #v1.5.31
 msgctxt "lineeditor_wait_kind"
 msgid "Stop behavior:"
-msgstr "동작 그만하기:"
+msgstr "동작 후:"
 
 #v1.5.31
 msgctxt "lineeditor_wait_kind_limbo"
@@ -8818,7 +8818,7 @@ msgstr "이전 명령의 마지막 운행 후 가능한 가장 빠른 시간으�
 #v1.5.31
 msgctxt "traineditor_order_start_time_at"
 msgid "At:"
-msgstr "에:"
+msgstr "시간:"
 
 #v1.5.31
 msgctxt "traineditor_order_start_time_by"
@@ -8883,17 +8883,17 @@ msgstr "시간대:"
 #v1.11.14
 msgctxt "traineditor_tz_custom"
 msgid "Custom"
-msgstr "Custom"
+msgstr "사용자 지정"
 
 #v1.11.14
 msgctxt "traineditor_tz_custom_input"
 msgid "Custom time zone:"
-msgstr "Custom time zone:"
+msgstr "사용자 지정 시간대:"
 
 #v1.11.14
 msgctxt "traineditor_tz_custom_input_desc"
 msgid "Format: (-)hh:mm:ss"
-msgstr "Format: (-)hh:mm:ss"
+msgstr "형식: (-)hh:mm:ss"
 
 #v1.5.31
 msgctxt "traineditor_tz_first_line"
