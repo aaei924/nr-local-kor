@@ -6333,7 +6333,7 @@ msgstr "게임 나가기"
 #v1.8.24
 msgctxt "realtime"
 msgid "Realtime"
-msgstr "실제 시간"
+msgstr "실시간"
 
 #v1.9.17
 msgctxt "refresh_built_report"
