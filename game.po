@@ -4243,12 +4243,12 @@ msgstr "이론적인 최대 감속도입니다. 실제 감속도는 열차의 �
 #v1.11.14
 msgctxt "lineeditor_min_pax_departure_leg_time"
 msgid "Pax min. ride time:"
-msgstr "최소 승하차 시간:"
+msgstr "최소 승차 시간:"
 
 #v1.11.14
 msgctxt "lineeditor_min_pax_departure_leg_time_desc"
 msgid "Format: (hh:)mm:ss\nPax will only board the train if they plan to ride it for at least this amount of time,\nnot including the initial wait time."
-msgstr "형식: (hh:)mm:ss\nPax will only board the train if they plan to ride it for at least this amount of time,\nnot including the initial wait time."
+msgstr "형식: (hh:)mm:ss\n열차에 탑승하려는 승객은 최소한 이 시간만큼은 열차에 타기만 합니다.\n(첫 대기 시간 제외)"
 
 #v1.5.31
 msgctxt "lineeditor_min_stop_time"
@@ -4528,37 +4528,37 @@ msgstr "노선"
 #v1.1.31
 msgctxt "lines_n_0"
 msgid "0 lines"
-msgstr "0 노선"
+msgstr "0개의 노선"
 
 #v1.1.31
 msgctxt "lines_n_1"
 msgid "1 line"
-msgstr "1 노선"
+msgstr "1개의 노선"
 
 #v1.1.31
 msgctxt "lines_n_many"
 msgid "%d lines"
-msgstr "%d 노선"
+msgstr "%d개의 노선"
 
 #v1.13.11
 msgctxt "list_lines_closed"
 msgid "Closed"
-msgstr "Closed"
+msgstr "폐쇄된 노선"
 
 #v1.13.11
 msgctxt "list_lines_open"
 msgid "Open"
-msgstr "Open"
+msgstr "영업중인 노선"
 
 #v1.13.11
 msgctxt "list_lines_tech"
 msgid "Technical"
-msgstr "Technical"
+msgstr "공차인 노선"
 
 #v1.13.11
 msgctxt "list_lines_warn"
 msgid "With warnings"
-msgstr "With warnings"
+msgstr "경고가 있는 노선"
 
 #v1.5.41
 msgctxt "list_sort_compact"
@@ -5083,7 +5083,7 @@ msgstr "모드 업로드 중..."
 #v1.1.31
 msgctxt "mod_uploader_info"
 msgid "The mod uploader is a tool for mod developers. If you want to use mods when playing the game, subscribe to them in the Steam Workshop and enable them when creating a new game."
-msgstr "모드 업로더는 모드 개발자를 위한 도구입니다. 게임을 플레이 할 때 모드를 사용하려면 Steam 창작 마당에서 구독하고 새 게임을 만들 때 활성화 하세요."
+msgstr "모드 업로더는 모드 개발자를 위한 도구입니다. 게임을 플레이 할 때 모드를 사용하려면 Steam 창작마당에서 구독하고 새 게임을 만들 때 활성화 하세요."
 
 #v1.1.31
 msgctxt "mod_uploader_info_guide"
@@ -5668,7 +5668,7 @@ msgstr "회계 시간대 변경"
 #v1.11.14
 msgctxt "option_company_acc_utc0_offset_s_change_desc"
 msgid "Current day accounting will be lost and/or incorrect. Proper accounting won't be restablished until 24 hours of in-game time passes. Some historical accounting might be lost. No historical accounting will be time shifted. This setting only applies starting at the moment it is changed. Are you sure?"
-msgstr "Current day accounting will be lost and/or incorrect. Proper accounting won't be restablished until 24 hours of in-game time passes. Some historical accounting might be lost. No historical accounting will be time shifted. This setting only applies starting at the moment it is changed. Are you sure?"
+msgstr "현재 일자의 회계가 손실되거나 부정확해질 수 있습니다. 인게임에서 24시간이 경과하기 전까지는 회계가 제대로 표시되지 않을 것입니다. 몇몇 과거의 회계가 사라질 수 있습니다. 과거의 회계는 시간대가 변경되지 않습니다. 이 설정은 변경된 순간 이후에만 적용됩니다. 계속하시겠습니까?"
 
 #v1.11.14
 msgctxt "option_company_acc_utc0_offset_s_change_yes"
@@ -5678,7 +5678,7 @@ msgstr "시간 변경"
 #v1.11.14
 msgctxt "option_company_acc_utc0_offset_s_desc"
 msgid "Format: (-)hh:mm:ss\nAccounting new day will be considered to start at this shifted time relative to UTC0"
-msgstr "형식: (-)hh:mm:ss\nAccounting new day will be considered to start at this shifted time relative to UTC0"
+msgstr "형식: (-)hh:mm:ss\nUTC-0보다 입력한 만큼 이동된 시간대에 회계 일자가 시작됩니다"
 
 #v1.12.11
 msgctxt "option_company_demand"
